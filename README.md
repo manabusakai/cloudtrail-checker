@@ -4,6 +4,10 @@
 
 Checks for your use of AWS CloudTrail.
 
+## Requirement
+
+ * AWS Command Line Interface
+
 ## Usage
 
 ```
