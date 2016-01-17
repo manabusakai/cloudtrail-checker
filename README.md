@@ -12,6 +12,13 @@ Checks for your use of AWS CloudTrail.
 
 ```
 $ bash cloudtrail-checker.sh
+Multi Region: OK
+```
+
+or
+
+```
+$ bash cloudtrail-checker.sh
 ap-northeast-1: OK
 ap-southeast-1: CloudTrail is disabled.
 ap-southeast-2: CloudTrail is disabled.
