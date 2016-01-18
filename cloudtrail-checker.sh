@@ -1,15 +1,17 @@
 #!/bin/bash
 
-regions=()
-regions[0]="ap-northeast-1"
-regions[1]="ap-southeast-1"
-regions[2]="ap-southeast-2"
-regions[3]="eu-central-1"
-regions[4]="eu-west-1"
-regions[5]="sa-east-1"
-regions[6]="us-east-1"
-regions[7]="us-west-1"
-regions[8]="us-west-2"
+regions=(
+    "ap-northeast-1"
+    "ap-northeast-2"
+    "ap-southeast-1"
+    "ap-southeast-2"
+    "eu-central-1"
+    "eu-west-1"
+    "sa-east-1"
+    "us-east-1"
+    "us-west-1"
+    "us-west-2"
+)
 
 common_command="aws cloudtrail --output text"
 
